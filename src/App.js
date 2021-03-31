@@ -1,11 +1,15 @@
-import './App.css';
+import React from 'react'
+import Header from './Components/Header'
+import Footer from './Components/Footer'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>Hello</h1>
+    <div>
+      <Header />
+      <h1>Welcome to Meach-Store</h1>
+      <Footer/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
