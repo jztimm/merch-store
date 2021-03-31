@@ -5,13 +5,16 @@ import Footer from './Components/Footer'
 
 const App = () => {
   return (
-    <div>
+    <>
       <Header />
-      <Container>
-        <h1>Welcome to Meach-Store</h1>
-      </Container>
+      {/* py-3 give padding on top and botton */}
+      <main className="py-3">
+        <Container>
+          <h1>Welcome to Meach-Store</h1>
+        </Container>
+      </main>
       <Footer/>
-    </div>
+    </>
   )
 }
 
